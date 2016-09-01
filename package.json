@@ -6,8 +6,7 @@
     "typings-install": "typings install",
     "postinstall": "npm run typings-install",
     "webpack": "webpack",
-    "server": "webpack-dev-server",
-    "start": "npm run server",
+    "start": "npm run webpack-dev-server",
     "tsc": "tsc"
   },
   "contributors": [
